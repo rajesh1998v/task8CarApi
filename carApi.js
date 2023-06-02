@@ -10,7 +10,7 @@ next();
 const port = 2410;
 app.listen(port,()=>console.log(`Listening on port ${port}!`));
 
-let {carMasterData,carData} = require("../carData");
+let {carMasterData,carData} = require("./carData");
 
 app.get("/cars",function(req,res){
     let minprice = req.query. minprice;
