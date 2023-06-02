@@ -1,0 +1,24 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "carApi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node carApi.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajesh1998v/task8CarApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajesh1998v/task8CarApi/issues"
+  },
+  "homepage": "https://github.com/rajesh1998v/task8CarApi#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
